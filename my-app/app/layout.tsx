@@ -28,9 +28,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Link href={"/"}>Home</Link>
-        <Link href={"/about"}>About</Link>
-        <Link href={"/contact"}>Contact</Link>
+        <Link className="m-1" href={"/"}>Home</Link>
+        <Link className="m-1" href={"/about"}>About</Link>
+        <Link className="m-1" href={"/contact"}>Contact</Link>
+        <Link className="m-1" href={"/users"}>Users</Link>
         {children}
       </body>
     </html>
